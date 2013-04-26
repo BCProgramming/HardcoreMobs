@@ -1,2 +1,2 @@
-![Hardcore Mobs Title Logo](https://github.com/BCProgramming/HardcoreMobs/blob/master/hardcoremobs.png)
+![Hardcore Mobs Title Logo](http://bc-programming.com/images/hardcoremobs.png)
 
