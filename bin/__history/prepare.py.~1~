@@ -19,10 +19,8 @@ def scriptfile():
     dname,fname = os.path.split(os.path.abspath(sys.argv[0]))
     return fname
 if __name__ == '__main__':
-    filepath = os.path.realpath(__file__)
-    parentfolder = os.path.dirname(os.path.abspath(os.path.join(filepath,"..")))
     print("main file:" + __file__)
-    zip = zipfile.ZipFile(parentfolder + '.jar', 'w')
+    zip = zipfile.ZipFile('survivalchests.jar', 'w')
     usefolder = os.path.dirname(os.path.realpath(sys.argv[0]))
     zipdir(usefolder,"", zip)
     zip.close()
